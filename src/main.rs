@@ -1,7 +1,6 @@
-use std::{thread, time::Duration};
-
 use clap::Parser;
 use notify_rust::Notification;
+use std::{thread, time::Duration};
 
 /// Pomodoro Timer but Potato
 #[derive(Parser, Debug)]
